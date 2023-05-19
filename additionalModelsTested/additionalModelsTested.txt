@@ -1,0 +1,36 @@
+Additional models tested, was not able to deploy. Ran on Google Colab due to GPU limitations on Jupyter Notebook. 
+
+To run: 
+1. Download .ipynb notebook file and upload into Google Colab. 
+2. Download datasets and upload into a folder in Google Colab
+3. Change required filepaths accordingly in the notebook file
+4. Change runtime type to "GPU" before execution
+5. Run all cells
+
+Dataset breakdown (for files in this folder only. Tagged 5CLASS):
+Train set:
+---------------------------------------------------
+BACTERIAL_PNEUMONIA_TRAIN=2541 
+COVID19_TRAIN=3255 
+LUNGINFECTION_TRAIN=5411 
+NORMAL_TRAIN=9172 
+VIRAL_PNEUMONIA_TRAIN=1211
+Train set total:  21590 -----------------------------
+
+Test set:
+----------------------------------------------------
+BACTERIAL_PNEUMONIA_TEST=242 
+COVID19_TEST=361 
+LUNGINFECTION_TEST=601 
+NORMAL_TEST=1020 
+VIRAL_PNEUMONIA_TEST=134
+Test set total:  2358 ----------------------------------
+
+Total number of images: 23948 ----------------------------
+
+Datasets: 
+1. COVID-19 Radiography Database (Normal, Viral Pneumonia, COVID, Non-covid lung infection)
+    https://www.kaggle.com/datasets/tawsifurrahman/covid19-radiography-database
+    
+2. Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images for Classification (Bacterial Infection only)
+    https://data.mendeley.com/datasets/rscbjbr9sj/2
