@@ -1,2 +1,2 @@
 # COVIDVisionX_ML
-Machine Learning Models used for FYP-23-S1-01
+Machine Learning Models tested for FYP-23-S1-01
