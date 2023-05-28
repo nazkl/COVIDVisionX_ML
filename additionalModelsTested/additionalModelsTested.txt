@@ -1,5 +1,8 @@
 Additional models tested, was not able to deploy. Ran on Google Colab due to GPU limitations on Jupyter Notebook. 
 
+Methods used to expand dataset:
+The additional models tested made use of transfer learning from the Imagenet dataset. Imagenet is a widely used dataset that provides labeled images for training deep learning models like ResNet50 and VGG19, which was tested in our project. These models are then fine-tuned or used as a starting point for various image-related tasks, benefiting from the pre-learned features from Imagenet. Using transfer learning reduces training time and data amount requirements, and lowers the generalisation error rate. After the model has been trained, we can then fine-tune them to meet our requirements.
+
 To run: 
 1. Download .ipynb notebook file and upload into Google Colab. 
 2. Download datasets and upload into a folder in Google Colab
